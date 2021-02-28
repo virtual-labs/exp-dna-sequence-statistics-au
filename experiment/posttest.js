@@ -92,26 +92,26 @@
         
         
         {
-            question: "1.Which function is used for finding the GC content in R program ?", ///// Write the question inside double quotes
+            question: "1.From the given sequence, using the simulator, find out which sequence has higher GC ratio. ///// Write the question inside double quotes
             answers: 
             {
-                a: "GC ( )", ///// Write the option 1 inside double quotes
-                b: "FindGC ( )", ///// Write the option 2 inside double quotes
-                c: "GetGCcontet ( )", ///// Write the option 2 inside double quotes
-                d: "GCratio ( )", ///// Write the option 2 inside double quotes
+                a: "gaaggggggacagataattggggtgaagtcgtaacaaggtagccgtatcggaagggatgg", ///// Write the option 1 inside double quotes
+                b: "cctaaagagtaacggaggcgcccaaagggtccctcagaatggatggaaatcattcgcagag", ///// Write the option 2 inside double quotes
+                c: "gaaggtgggacagataattggggtgaagtcgtaacaaggtagccgtatcggaaggtgcgg)", ///// Write the option 2 inside double quotes
+                d: "gaaggggggacagataattggggtgaagtcgtaacaaggtagccgtatcggaaggtgcgg", ///// Write the option 2 inside double quotes
 
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            correctAnswer: "d" ///// Write the correct option inside double quotes
         },
 
         {
-            question: "2.Which library is using for finding GC content in R programing ?", ///// Write the question inside double quotes
+            question: "2.High GC content relates to", ///// Write the question inside double quotes
             answers: 
             {
-                a: "Ses library", ///// Write the option 1 inside double quotes
-                b: "Seqinr library", ///// Write the option 2 inside double quotes
-                c: "Sfsmisc library", ///// Write the option 2 inside double quotes
-                d: "SemTools library", ///// Write the option 2 inside double quotes
+                a: "Low melting point", ///// Write the option 1 inside double quotes
+                b: "High melting point", ///// Write the option 2 inside double quotes
+                c: "High boiling point", ///// Write the option 2 inside double quotes
+                d: "Low boiling point", ///// Write the option 2 inside double quotes
 
             },
             correctAnswer: "b" ///// Write the correct option inside double quotes
@@ -119,30 +119,44 @@
 
 
         {
-            question: "3.Which factor of DNA is influenced by its GC content ?", ///// Write the question inside double quotes
+            question: "3.The bond that exist between the bases of DNA", ///// Write the question inside double quotes
             answers: 
             {
-                a: "Melting point", ///// Write the option 1 inside double quotes
-                b: "Boiling point", ///// Write the option 2 inside double quotes
-                c: "Elongation", ///// Write the option 2 inside double quotes
-                d: "Replication", ///// Write the option 2 inside double quotes
+                a: "Phosphodiester bond", ///// Write the option 1 inside double quotes
+                b: "Hydrogen bond", ///// Write the option 2 inside double quotes
+                c: "Peptide bond", ///// Write the option 2 inside double quotes
+                d: "Disulphide bond", ///// Write the option 2 inside double quotes
 
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            correctAnswer: "b" ///// Write the correct option inside double quotes
         },
 
 
         {
-            question: "4.GC content can be calculated using the equation:", ///// Write the question inside double quotes
+            question: "4. The package used in R programming to find GC content of given DNA sequence:", ///// Write the question inside double quotes
             answers: 
             {
-                a: "( (G+C) / A + T + C + G )) * 100", ///// Write the option 1 inside double quotes
-                b: "( (A+C) / C + G )) * 100", ///// Write the option 2 inside double quotes
-                c: "( (T+C) / C - G + A)) * 100", ///// Write the option 2 inside double quotes
-                d: "( (A+T) / A + T + C + G )) * 100", ///// Write the option 2 inside double quotes
+                a: "SequinR", ///// Write the option 1 inside double quotes
+                b: "Biostring", ///// Write the option 2 inside double quotes
+                c: "ggplot", ///// Write the option 2 inside double quotes
+                d: "shiny", ///// Write the option 2 inside double quotes
 
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
+        },
+        
+        
+         {
+            question: "5. GC ratio analysis is applicable in:", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "Understanding the statistical significance of a DNA sequence", ///// Write the option 1 inside double quotes
+                b: "Ecological and evolutionary significance of species", ///// Write the option 2 inside double quotes
+                c: "Identifying annealing temperature of a DNA sequence", ///// Write the option 2 inside double quotes
+                d: "All the above", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "d" ///// Write the correct option inside double quotes
         },
 
 
