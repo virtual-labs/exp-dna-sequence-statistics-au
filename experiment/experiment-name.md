@@ -1,1 +1,1 @@
-## Experiment name
+## Guanine-Cytosine Content Analysis and Basics of DNA Sequence Statistics
