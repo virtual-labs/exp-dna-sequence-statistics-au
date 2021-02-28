@@ -88,23 +88,76 @@
     /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-    const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+    const myQuestions = [
+        
+        
+        {
+            question: "1.From the given sequence, using the simulator, find out which sequence has higher GC ratio. ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "gaaggggggacagataattggggtgaagtcgtaacaaggtagccgtatcggaagggatgg", ///// Write the option 1 inside double quotes
+                b: "cctaaagagtaacggaggcgcccaaagggtccctcagaatggatggaaatcattcgcagag", ///// Write the option 2 inside double quotes
+                c: "gaaggtgggacagataattggggtgaagtcgtaacaaggtagccgtatcggaaggtgcgg)", ///// Write the option 2 inside double quotes
+                d: "gaaggggggacagataattggggtgaagtcgtaacaaggtagccgtatcggaaggtgcgg", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "2.High GC content relates to", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "Low melting point", ///// Write the option 1 inside double quotes
+                b: "High melting point", ///// Write the option 2 inside double quotes
+                c: "High boiling point", ///// Write the option 2 inside double quotes
+                d: "Low boiling point", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+
+        {
+            question: "3.The bond that exist between the bases of DNA", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "Phosphodiester bond", ///// Write the option 1 inside double quotes
+                b: "Hydrogen bond", ///// Write the option 2 inside double quotes
+                c: "Peptide bond", ///// Write the option 2 inside double quotes
+                d: "Disulphide bond", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+
+        {
+            question: "4. The package used in R programming to find GC content of given DNA sequence:", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "SequinR", ///// Write the option 1 inside double quotes
+                b: "Biostring", ///// Write the option 2 inside double quotes
+                c: "ggplot", ///// Write the option 2 inside double quotes
+                d: "shiny", ///// Write the option 2 inside double quotes
+
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
+        
+        
+         {
+            question: "5. GC ratio analysis is applicable in:", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "Understanding the statistical significance of a DNA sequence", ///// Write the option 1 inside double quotes
+                b: "Ecological and evolutionary significance of species", ///// Write the option 2 inside double quotes
+                c: "Identifying annealing temperature of a DNA sequence", ///// Write the option 2 inside double quotes
+                d: "All the above", ///// Write the option 2 inside double quotes
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+            },
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
 
 
         

@@ -1,13 +1,90 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+    </head>
+    <title>
+        Vlab experiment GC count
+    </title>
+    <body>
+        
+        <!--h>Vlab experiment GC count</h1-->
+        <img src="./images/Amritalogo.png" alt="vlab logo" style="width:100px;height:30px;"/>
+        <img src="./images/vlablogo2.jpg" alt="vlab logo" style="width:70px;height:35px;">
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
+        <br>
+        <br>
+        
+        <div>
+            <form>
+
+                <div class="form-group">
+                    
+                    <label for="dnainput">DNA sequence</label></br>
+                    <textarea id="dnainput" name="textareainput" rows="5" cols="70" placeholder="enter you sequence here..." ></textarea>
+                    
+                    </br>
+                    </br>
+
+                    <button class="btn btn-success" id="csvload" onclick="FindGC()" type="button" style="width: 108px">GC content</button>
+                    <a href="./sequence.fasta" download="Samplefile.fasta" > <button type="button">Sample File </button> </a> 
+                    
+                    <br>
+                    <br>
+                    
+                    <output id="GCValueout">
+                        
+                    </output>
+
+                </div>
+
+            </form>
+        </div>
+
+        <script>
+
+            //finding the GC and AT Content of a DNA
+
+            function FindGC() {
+
+                let dna_seq = document.getElementById('dnainput').value.toUpperCase();
+                
+                if(dna_seq.match(/^\s+$/) || dna_seq == ""){
+                    
+                    alert("Please enter a DNA Sequence");
+                    return
+                }
+
+                let a = count(dna_seq, "A")
+                let c = count(dna_seq, "C")
+                let g = count(dna_seq, "G")
+                let t = count(dna_seq, "T")
+
+                let GC_content = ((g + c) / (g + c + a + t) * 100).toFixed(2) + "%";
+                
+                if (dna_seq == "") {
+                    
+                    document.getElementById('dnainput').style.border = "1px solid red";
+                    document.getElementById('GCValueout').innerHTML = "";
+                
+                } else {
+                    document.getElementById('GCValueout').innerHTML = "GC Content: " + GC_content;
+                }
+            }
+
+            function count(str, letter) {
+                var letter_Count = 0;
+                for (var position = 0; position < str.length; position++) {
+                
+                if (str.charAt(position) == letter) {
+                    letter_Count++;
+                }
+                
+                }
+                return letter_Count;
+            }
+
+        </script>
+
+    </body>
 </html>
