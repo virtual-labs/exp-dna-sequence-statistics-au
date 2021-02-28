@@ -91,21 +91,21 @@
     const myQuestions = [
         
         
-        {
-            question: "1.From the given sequence, using the simulator, find out which sequence has higher GC ratio. ///// Write the question inside double quotes
-            answers: 
-            {
-                a: "gaaggggggacagataattggggtgaagtcgtaacaaggtagccgtatcggaagggatgg", ///// Write the option 1 inside double quotes
-                b: "cctaaagagtaacggaggcgcccaaagggtccctcagaatggatggaaatcattcgcagag", ///// Write the option 2 inside double quotes
-                c: "gaaggtgggacagataattggggtgaagtcgtaacaaggtagccgtatcggaaggtgcgg)", ///// Write the option 2 inside double quotes
-                d: "gaaggggggacagataattggggtgaagtcgtaacaaggtagccgtatcggaaggtgcgg", ///// Write the option 2 inside double quotes
+     //{
+           // question: "1. From the given sequence, using the simulator, find out which sequence has higher GC ratio." ///// Write the question inside double quotes
+          //  answers: 
+          //  {
+           //     a: "gaaggggggacagataattggggtgaagtcgtaacaaggtagccgtatcggaagggatgg", ///// Write the option 1 inside double quotes
+         //       b: "cctaaagagtaacggaggcgcccaaagggtccctcagaatggatggaaatcattcgcagag", ///// Write the option 2 inside double quotes
+       //         c: "gaaggtgggacagataattggggtgaagtcgtaacaaggtagccgtatcggaaggtgcgg)", ///// Write the option 2 inside double quotes
+     //           d: "gaaggggggacagataattggggtgaagtcgtaacaaggtagccgtatcggaaggtgcgg", ///// Write the option 2 inside double quotes
 
-            },
-            correctAnswer: "d" ///// Write the correct option inside double quotes
-        },
+    //   },
+     //     correctAnswer: "d" ///// Write the correct option inside double quotes
+     //   },
 
         {
-            question: "2.High GC content relates to", ///// Write the question inside double quotes
+            question: "1.High GC content relates to", ///// Write the question inside double quotes
             answers: 
             {
                 a: "Low melting point", ///// Write the option 1 inside double quotes
@@ -119,7 +119,7 @@
 
 
         {
-            question: "3.The bond that exist between the bases of DNA", ///// Write the question inside double quotes
+            question: "2.The bond that exist between the bases of DNA", ///// Write the question inside double quotes
             answers: 
             {
                 a: "Phosphodiester bond", ///// Write the option 1 inside double quotes
@@ -133,7 +133,7 @@
 
 
         {
-            question: "4. The package used in R programming to find GC content of given DNA sequence:", ///// Write the question inside double quotes
+            question: "3. The package used in R programming to find GC content of given DNA sequence:", ///// Write the question inside double quotes
             answers: 
             {
                 a: "SequinR", ///// Write the option 1 inside double quotes
@@ -147,7 +147,7 @@
         
         
          {
-            question: "5. GC ratio analysis is applicable in:", ///// Write the question inside double quotes
+            question: "4. GC ratio analysis is applicable in:", ///// Write the question inside double quotes
             answers: 
             {
                 a: "Understanding the statistical significance of a DNA sequence", ///// Write the option 1 inside double quotes
