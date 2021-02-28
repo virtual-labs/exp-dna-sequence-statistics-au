@@ -153,7 +153,7 @@
                 a: "Understanding the statistical significance of a DNA sequence", ///// Write the option 1 inside double quotes
                 b: "Ecological and evolutionary significance of species", ///// Write the option 2 inside double quotes
                 c: "Identifying annealing temperature of a DNA sequence", ///// Write the option 2 inside double quotes
-                d: "All the above", ///// Write the option 2 inside double quotes
+                d: "All of the above", ///// Write the option 2 inside double quotes
 
             },
             correctAnswer: "d" ///// Write the correct option inside double quotes
