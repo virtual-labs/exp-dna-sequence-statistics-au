@@ -1,28 +1,22 @@
-### Procedure
- 
+### Procedure to work simulator
 
+
+1.	Enter a sample DNA sequence in user interface of R platform. For example paste the sequence 
+ggtaagtcctctagtacaaacacccccaatattgtgatataattaaaattatattcatattctgttgccagaaaaaacacttttaggctatattagagccatcttctttgaagcgttgtc
+
+
+<center><img src="images/exp2_1.png" title="" /></center>
 &nbsp;
 
 
+2.	Click on GC content tab for output. 
 
-1.	Follow ( https://vlab.amrita.edu/index.php?sub=3&brch=311&sim=1835&cnt=2) to install R in personal computer.
-2.	Install sequinR package. Follow the code 
+<center><img src="images/exp2_2.png" title="" /></center>
 
-        install.packages('seqinr')
-        library('seqinr')
- 
-&nbsp;
+Here, for the given sequence the GC content is 33.33%. GC content measures indicate the proportion of G and C bases in a sequence including adenine and thymine in DNA and adenine and uracil in RNA.
 
-**Procedure to calculate GC content in a personal computer**
- 
-1.	Follow the code in the command window:
+3.	Also, a default sequence file is provided in the user interface. User can download the file and then choose that file for GC content analysis. 
 
-               library("seqinr")
-               seq1<-s2c("atgcttaaagctagctagggcatggcatggctaggctatggagactgactacg")
-               GC(seq1)
-2. Click execute button for output.
- 
-&nbsp;
 
 ***Description***
  
@@ -30,13 +24,23 @@
  
 &nbsp;
 
-**Procedure to work simulator**
+&nbsp;
+
+**Procedure to calculate GC content in a personal computer**
+
+
+1.	Follow ( https://vlab.amrita.edu/index.php?sub=3&brch=311&sim=1835&cnt=2) to install R in personal computer.
+2.	Install sequinR package. Follow the code 
+
+        install.packages('seqinr')
+        library('seqinr')
+3. Follow the code in the command window:
+
+               library("seqinr")
+               seq1<-s2c("atgcttaaagctagctagggcatggcatggctaggctatggagactgactacg")
+               GC(seq1)
+4. Click execute button for output.
  
-1.	Paste any DNA sequence in the textbox provided. Click on “ Find GC” button
-2.	GC ratio will be displayed in the GUI.
-
-
-<center><img src="images/2.png" title="" /></center>
-
+&nbsp;
 
 
