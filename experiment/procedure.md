@@ -5,7 +5,8 @@
 ggtaagtcctctagtacaaacacccccaatattgtgatataattaaaattatattcatattctgttgccagaaaaaacacttttaggctatattagagccatcttctttgaagcgttgtc
 
 
-<center><img src="images/exp2_1.png" title="" /></center>
+<center><img src="images/exp2_1.png"width="634" 
+     height="302"  title="" /></center>
 &nbsp;
 
 2.	Click on GC content tab for output. 
