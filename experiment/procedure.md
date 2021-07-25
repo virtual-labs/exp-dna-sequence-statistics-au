@@ -40,6 +40,6 @@ Here, for the given sequence the GC content is 33.33%. GC content measures indic
                GC(seq1)
 4. Click execute button for output.
  
-&nbsp;
+&nbsp; 
 
 
