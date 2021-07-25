@@ -8,7 +8,6 @@ ggtaagtcctctagtacaaacacccccaatattgtgatataattaaaattatattcatattctgttgccagaaaaaacac
 <center><img src="images/exp2_1.png" title="" /></center>
 &nbsp;
 
-
 2.	Click on GC content tab for output. 
 
 <center><img src="images/exp2_2.png" title="" /></center>
