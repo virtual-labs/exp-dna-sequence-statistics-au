@@ -14,7 +14,7 @@ ggtaagtcctctagtacaaacacccccaatattgtgatataattaaaattatattcatattctgttgccagaaaaaacac
 
 Here, for the given sequence the GC content is 33.33%. GC content measures indicate the proportion of G and C bases in a sequence including adenine and thymine in DNA and adenine and uracil in RNA.
 
-3.	Also, a default sequence file is provided in the user interface. User can download the file and then choose that file for GC content analysis. 
+3.	Also, a default sequence file is provided in the user interface. User can download the file and then choose that file for GC content analysis.  
 
 
 ***Description***
